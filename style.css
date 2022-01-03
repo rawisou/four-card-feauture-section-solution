@@ -51,7 +51,7 @@ div p {
     color: hsl(229, 6%, 66%);
 
 }
-section { 
+.grid-box { 
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(4, 110px);
@@ -131,7 +131,7 @@ img {
             font-size: 8px;
         }
     
-        section {
+        .grid-box {
             grid-gap: 50px;
         }
 
